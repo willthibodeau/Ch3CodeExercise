@@ -1,0 +1,7 @@
+
+.ui-icon-myicon:after {
+
+        background-image: url("bars-black.png") !important;
+        background-size: 18px 18px;
+
+}
