@@ -5,3 +5,11 @@
         background-size: 18px 18px;
 
 }
+
+.htmlFooter {
+	text-align: center;
+}
+
+.htmlFooter* {
+	margin: 0 auto;
+}
