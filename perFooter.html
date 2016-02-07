@@ -11,43 +11,48 @@
 </head>
 <body>
   <div data-role="page" id="home">
-    <div data-role="header" >
-      <a href="index.html">Home</a>
-      <h1> 1. Fixed Toolbar</h1>
-    </div>
-    <div data-role="content">
-     <p>Will's Home Content</p>
-    </div>
 
-
-    <div data-role="footer" data-id="main" position="fixed">
-      <div data-role="navbar">
-        <ul>
-          <li><a data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
-          <li><a href="#help" data-icon="alert">Help</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div data-role="page" id="help">
     <div data-role="header">
-      <a href="index.html">Home</a>
-      <h1>Help</h1>
+            <h1>Home</h1>
+
     </div>
+
     <div data-role="content">
-      <p>This content is for help</p>
+            <p>This is content for the home</p>
     </div>
 
     <div data-role="footer" data-id="main" position="fixed">
       <div data-role="navbar">
-        <ul>
-          <li><a href="#home" data-icon="home">Home</a></li>
-          <li><a data-icon="alert" class="ui-btn-active ui-state-persist">Help</a></li>
-        </ul>
+       <ul>
+         <li><a data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
+         <li><a href="#help" data-icon="alert">Help</a></li>
+       </ul>
       </div>
+     </div>
+
+ </div>
+
+
+ <div data-role="page" id="help">
+
+    <div data-role="header">
+            <h1>Help</h1>
+     </div>
+
+    <div data-role="content">
+            <p>This is content for Help</p>
+     </div>
+
+    <div data-role="footer" data-id="main"  position="fixed">
+      <div data-role="navbar">
+       <ul>
+         <li><a href="#home" data-icon="home">Home</a></li>
+         <li><a data-icon="alert" class="ui-btn-active ui-state-persist">Help</a></li>
+       </ul>
+      </div>
+     </div>
+
     </div>
 
-  </div>
 </body>
 </html>
